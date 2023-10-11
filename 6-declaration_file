@@ -1,0 +1,18 @@
+const puppeteer = require('puppeteer');
+
+(async () => {
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+  await page.goto('https://dev-tools.alx-tools.com/');
+
+  (() => {
+    const cakeBox = document.querySelector('.cake-box'); // Replace with the correct selector
+    if (cakeBox) {
+      cakeBox.remove();
+    }
+  });
+
+({ path: 'screenshot.png' });
+
+  ();
+})();

@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Screenshot</title>
+</head>
+<body style="background-color: #4233bd;">
+    <h1>PORTFOLIO Section</h1>
+    <img src="screenshot.png" alt="Portfolio Section Screenshot">
+</body>
+</html>

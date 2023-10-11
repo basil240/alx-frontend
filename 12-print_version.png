@@ -1,0 +1,14 @@
+const puppeteer = require('puppeteer');
+
+(async () => {
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+
+  // Emulate print CSS media type
+  await page.emulateMediaType('print');
+
+  await page.goto('https://dev-tools.alx-tools.com');
+  await page.screenshot({ path: 'print-screenshot.png' });
+
+  await browser.close();
+})();

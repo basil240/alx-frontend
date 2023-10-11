@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Screenshot Info</title>
+</head>
+<body>
+    <h1>Device Information</h1>
+    <p>Selected Device: <span id="iPhone X"></span></p>
+    <p>Size in Pixels: <span id="100x"></span></p>
+
+    <h1>Website Screenshot</h1>
+    <img src="screenshot.png" alt="Website Screenshot">
+
+    <script>
+        const iPhone X = document.getElementById('iPhone X');
+        const 100x = document.getElementById('100x');
+
+        deviceInfo.textContent = window.innerWidth + '100x' + window.innerHeight;
+        sizeInfo.textContent = window.innerWidth + '100x' + window.innerHeight;
+    </script>
+</body>
+</html>
