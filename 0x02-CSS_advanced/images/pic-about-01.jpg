@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Advanced CSS</title>
+</head>
+<body>
+    <h1>Welcome to My Web Page</h1>
+    <p>Here's an image:</p>
+    <img src="images/myimage.jpg" alt="c:\Users\User\Documents\-unsplash image 01.jpg">
+</body>
+</html>
