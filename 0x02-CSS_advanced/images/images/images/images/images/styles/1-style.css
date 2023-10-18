@@ -1,8 +1,0 @@
-styles/1-style.css
-document.getElementById("targetElementId").scrollIntoView({ behavior: "smooth" });
-
-window.scrollTo({
-    top: 500,
-    left: 0,
-    behavior: "smooth"
-});
